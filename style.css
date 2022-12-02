@@ -1,0 +1,74 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    
+   height: 800px;
+   background-image: url(/image/header.jpg); 
+   background-repeat: round;
+}
+.container1  div{
+    display: inline-block;
+    color: #fffefb;
+    text-transform: uppercase;
+}
+
+.container1 a{
+    color: #fffefb;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:2px solid #8f7c78;
+}
+
+.sayHi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    margin-top: 200px;
+}
+
+.sayHi div:first-child{
+    color: #fffefb;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    
+    
+
+}
+
+.hui{
+    width:100px;
+    border-bottom:2px solid #96563b;
+
+}
+
+.sayHi div:last-of-type{
+    color: #cec4c4;
+    text-transform: uppercase;
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+.sayHi button{
+    background-color:#e76541;
+    color:#ffffe4;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.sayHi button:hover {
+    cursor:pointer;
+}
+
